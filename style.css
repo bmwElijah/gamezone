@@ -1,0 +1,613 @@
+
+.main {
+    
+    background-image: linear-gradient(#540808,#fdfdfd, #000000);
+    color: rgb(92, 45, 45);
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 20px 10px;
+    padding: 20px;
+    text-align: center;
+    font-style: italic ;
+}
+
+
+
+
+.game1{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+#wmb568757 {
+  background:#220005 ;
+   margin-bottom: -0.899%;
+   
+}
+
+
+
+
+
+
+.Search-bar {
+    font-size: 28px;
+    margin: 1%;
+    background-color: #272727;
+    color: #ffffff;
+    float:right ;
+     margin: -27px 4px;
+     border: 3px solid black;
+     border-radius: 5%;
+    
+}
+
+
+
+
+
+
+
+
+
+  /* --- Stjärn-animation --- */
+  #stars2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: transparent;
+    z-index: -1;
+  }
+
+  .star2 {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    animation: twinkle 3ms infinite;
+  }
+
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.2; }
+    50% { opacity: 1; }
+  }
+
+
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* gap at top */
+ padding-top: 90px;
+     /* TOP GAP */
+}
+
+#gamePageMainContainer {
+  width: 85%;
+  height: 75%;
+  position: relative;
+  border-radius: 20px;     /* ROUNDED CORNERS */
+  overflow: hidden;        /* CLIPS iframe corners */
+  background: #000;
+  box-shadow: 0 0 25px rgba(0,0,0,0.8);
+}
+
+#game-iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.wmb568757{
+   bottom: 1;
+  left: -40;
+  width: 120%;      /* or exact width of logo */
+  height: 10px;
+}
+
+#game-container {
+  position: relative;
+  width: 82%;
+  height: 77%;
+  margin: 30px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  background: black;
+}
+
+#game-iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iframe-cover {
+  position: absolute;
+  bottom: -285;
+  left: -40;
+  width: 120%;      /* or exact width of logo */
+  height: 570px;     /* adjust to cover the logo */
+  z-index: 2;
+  pointer-events: none; /* so clicks go through to the game */
+}
+
+.iframe-cover2 {
+  position: absolute;
+  bottom: -210;
+
+  left: 68;
+  width: 93%;      /* or exact width of logo */
+  height: 565px;     /* adjust to cover the logo */
+  z-index: 2;
+  pointer-events: none; /* so clicks go through to the game */
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: "Orbitron", sans-serif;
+    background-color: #130003; /* mörkröd bakgrund */
+    color: white;
+    overflow-x: hidden;
+
+
+}
+
+.wmb:hover  {
+    transition: 1s ; 
+    box-shadow: lab(3.93% 6.55 2.31) 0px 2px 15px;
+    opacity: 65% ;
+}
+
+
+
+.wmb { 
+    text-align: right ;
+    float: right;
+}
+
+
+
+
+.all-btn-style:hover {
+    box-shadow: 10px 7px 7px black;
+    filter: brightness(80%);
+    transition: 0.4s;
+    
+
+
+}
+
+.all-btn-style {
+   padding: 10px 16px;
+        font-size: 16px;
+        background: #a11818;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+
+}
+
+.all-btn-style2 {
+    background-color: #550808;
+    color: #ffffff;
+
+}
+
+
+
+    #proxy {
+        background-color: #646464;
+        color: #ffffff;
+    }
+
+
+
+
+.main-menu {
+
+ background-image: linear-gradient(#552121, #330f0f)
+}
+
+.test50 {
+    float: right;
+
+}
+
+
+
+
+.center {
+ 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+    margin: 10px 0px;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.wmb {
+    border: 3px solid black;
+    margin: 10px 5px;
+    
+}
+
+    
+
+.btn500 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  overflow: hidden;
+  z-index: 2;
+  font-family: "Orbitron", sans-serif;
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  text-shadow: 0 0 4px white;
+  height: 3rem;
+  background-size: 300% 300%;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+  transition: 0.5s;
+  animation: gradient_301 5s ease infinite;
+  border: double 4px transparent;
+  background-image: linear-gradient(#161a25, #161a25),
+    linear-gradient(
+      137.48deg,
+      #f5434f 10%,
+      #631e29 45%,
+      #000000 67%,
+      #161a25 87%
+    );
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+#container-stars {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+}
+
+#stars {
+  position: relative;
+  background: transparent;
+  width: 200rem;
+  height: 200rem;
+}
+
+#stars::after {
+  content: "";
+  position: absolute;
+  top: -10rem;
+  left: -100rem;
+  width: 100%;
+  height: 100%;
+  animation: animStarRotate 90s linear infinite;
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+}
+
+#stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 170%;
+  height: 500%;
+  animation: animStar 60s linear infinite;
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+  opacity: 0.5;
+}
+
+@keyframes animStar {
+  from { transform: translateY(0); }
+  to { transform: translateY(-135rem); }
+}
+
+@keyframes animStarRotate {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0); }
+}
+
+@keyframes gradient_301 {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.spawnedBtn {
+    padding: 10px 16px;
+    font-size: 16px;
+    background: #a11818;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    margin: 10px;
+}
+
+.spawnedBtn.show {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.spawnedBtn:hover {
+    background: #7a0f0f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    /* Container for spawned buttons */
+    #buttonContainer {
+        margin-top: 20px;
+        display: flex;
+       
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    /* Spawned buttons style */
+    .spawnedBtn {
+        padding: 10px 16px;
+        font-size: 16px;
+        background: #a11818;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        opacity: 0;
+        margin: 10;a
+        transform: scale(0.5);
+        transition: opacity 0.4s ease, transform 0.4s ease;
+        
+    }
+    
+    .spawnedBtn.show {
+        opacity: 1;
+        transform: scale(1);
+    }
+    .spawnedBtn:hover {
+        background: #7a0f0f;
+    }
+
+
+
+
+
+
+
+
+
+  
+    /* Main toggle button */
+    #toggleBtn2 {
+        padding: 12px 20px;
+        font-size: 18px;
+        background: #1d1d1d;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition:  0.3s;
+    }
+    #toggleBtn2:hover {
+        background: #161616;
+    }
+
+    /* Container for spawned buttons */
+    #buttonContainer2 {
+        margin-top: 20px;
+        display: flex;
+       
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    /* Spawned buttons style */
+    .spawnedBtn2 {
+        padding: 10px 16px;
+        font-size: 16px;
+        background: #a11818;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        opacity: 0;
+        transform: scale(0.5);
+        transition: opacity 0.4s ease, transform 0.4s ease;
+        
+    }
+    
+    .spawnedBtn2.show {
+        opacity: 1;
+        transform: scale(1);
+    }
+    .spawnedBtn2:hover {
+        background: #7a0f0f;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wmb1 { 
+    text-align: right ;
+    float: right;
+}
+.wmb2 { 
+    text-align: right ;
+    float: right;
+}
+.wmb3 { 
+    text-align: right ;
+    
+}
+.wmb4 { 
+    text-align: right ;
+    float: right;
+}
+
+
+    .all-btn-style2  {
+    font-size: 24px;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    border: 3px solid black;
+    
+    border-radius: 7px;
+}
+
+
+
+
+
+
+li.list-item {
+    display: inline-block;
+    margin: 5px 48px;
+  
+    padding: 4px 10px;
+    border-radius: 6px;
+    
+   
+
+}
+
+
+
+
+#dg {
+        background-color: #740000;
+        color: #ffffff;
+    }
+
+
+    
+.glow-on-hover {
+   
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #000000;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #000000, #ffffff, #ff0000, #000000, #ffffff, #ff0000, #000000, #ffffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #310000;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

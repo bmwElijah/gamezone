@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="style.css">
+  <title>GameZone</title>
+      <link rel="icon" type="image/x-icon" href="logo__1_-removebg-preview (1).png">
+</head>
+<body>
+
+
+
+  
+   <div id="wmb568757" class="wmc">
+      <a href="./index.html"  >
+        <img src="logo__1_-removebg-preview (2).png" alt="">
+      </a>
+   </div>
+
+<input class="Search-bar" type="text" placeholder="Search" list="input" id="input">
+
+<div id="menu-container">
+  <ul class="main-menu">
+    <li class="list-item"><a href="./index.html"><button class="glow-on-hover">Home</button></a></li>
+    <li class="list-item"><a href="./hello.html"><button class="glow-on-hover">Links to games</button></a></li>
+    <li class="list-item"><a href="./GameZone2.html"><button class="glow-on-hover">Proxy web site</button></a></li>
+    <li class="list-item"><a href="./GameZone3.html"><button class="glow-on-hover">Games</button></a></li>
+     <li class="list-item"><a href="./GameZone4.html"><button class="glow-on-hover">Image Games</button></a></li>
+     <li class="list-item"><a target="_blank" href="https://discord.gg/G5ea4eZnWm"><button class="glow-on-hover" >Our Discord Server</button></a></li>
+  </ul>
+</div>
+
+
+
+
+  
+ 
+
+
+   
+
+
+
+
+
+
+
+
+<div class="container" id="gameContainer">
+  <!-- Knappar genereras här med JS -->
+</div>
+
+<div id="stars2"></div>
+
+
+
+<div id="stars2"></div>
+
+<script>
+ 
+  // --- Stjärnor bakgrund ---
+  const stars = document.getElementById("stars2");
+  for(let i=0; i<100; i++){
+    const star = document.createElement("div");
+    star.className = "star2";
+    star.style.top = Math.random() * 100 + "%";
+    star.style.left = Math.random() * 100 + "%";
+    star.style.width = star.style.height = Math.random() * 3 + "px";
+    star.style.animationDuration = 2 + Math.random() * 3 + "s";
+    stars.appendChild(star);
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   <datalist id="input" >
+ 
+   <option value="html">html</option>
+
+   </datalist>
+
+ 
+   <a href=""></a>
+
+   
+   <div id="wmb1" class="wmb">   
+      <a href="https://www.easyfun.gg/cloud-games/roblox.html?start=1" target="_blank">
+      <img class="game1"  src="th (1).webp"></a>
+   </div>
+  
+   <div id="wmb1" class="wmb">   
+      <a href="GameZone-ragdoll-archers.html" target="_blank">
+      <img class="game1"  src="ragdoll-archers.webp"></a>
+   </div>
+
+   <div id="wmb2" class="wmb">
+      <a href="https://cookieclicker.com/" target="_blank" >
+        <img class="game1" src="coki cliker.png" alt="">
+      </a>
+   </div>
+   
+    
+   <div id="wmb2" class="wmb">
+      <a href="GameZone-Space-Waves.html" target="_blank" >
+        <img class="game1"  src="space-waves.jpg" alt="">
+      </a>
+   </div>
+   
+
+   <div id="wmb3" class="wmb">
+      <a href="https://m.eaglercraft.com/mc/1.8.8/" target="_blank" >
+        <img class="game1"  src="minecraft.webp" alt="">
+      </a>
+   </div>
+   
+   <div id="wmb4" class="wmb">
+      <a href="GameZone-Shell-shockers.html" target="_blank" >
+      <img class="game1"  src="shell-shockers.png" alt=""></a>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button id="toggleGamesBtn" type="button" class="btn500">
+    <strong>show link Games</strong>
+    <div id="container-stars">
+        <div id="stars"></div>
+    </div>
+</button>
+
+<div id="gamesContainer"></div>
+
+
+<button id="toggleAppsBtn" class="btn500" style="margin-top:20px;">
+    <strong>Show games</strong>
+    <div id="container-stars">
+        <div id="stars"></div>
+    </div>
+</button>
+
+<div id="appsContainer"></div>
+
+<button id="toggleproxyBtn" class="btn500"  style="margin-top:20px;">
+    <strong>Show proxy</strong>
+    <div id="container-stars">
+        <div id="stars"></div>
+    </div>
+</button>
+
+<div id="proxyContainer"></div>
+
+
+<script>
+// ====== FIRST LIST: GAMES ======
+createToggleList(
+    "toggleGamesBtn",
+    "gamesContainer",
+    [
+        { text: "cloudmoonapp", link: "https://web.cloudmoonapp.com/" },
+        { text: "emupedia.net", link: "https://emupedia.net/beta/emuos/" },
+        { text: "Boosteroid", link: "https://boosteroid.com/" },
+        { text: "GeForce Now", link: "https://play.geforcenow.com/mall/#/loginwall" },
+        { text: "Xbox Cloud", link: "https://www.xbox.com/en-us/play" },
+        { text: "crazygams", link: "https://www.crazygames.com/" },
+        { text: "poki", link: "https://poki.com/" },
+        { text: "now.gg", link: "https://now.gg/" },
+        { text: "spelo", link: "https://www.spelo.se/" },
+        { text: "Easyfun", link: "https://www.easyfun.gg/" },
+        { text: "Yandex", link: "https://yandex.com/games/" },
+        { text: "y100", link: "https://www.y100.info/" },
+        { text: "spela", link: "https://www.spela.se/" },
+        { text: "izzygames", link: "https://www.izzygames.com/" },
+        { text: "y8", link: "https://www.y8.com/" },
+        { text: "nowgg.lol", link: "https://nowgg.lol//" },
+         { text: "Nargames", link: "https://nargames.com/" },
+    ]
+);
+
+// ====== SECOND LIST: APPS ======
+createToggleList(
+    "toggleAppsBtn",
+    "appsContainer",
+    [
+        { text: "tomb of the mask", link: "https://tombofthe-mask.com/" },
+        { text: "freefishy", link: "https://freefishy.org/" },
+        { text: "Pacman", link: "https://freepacman.org/" },
+        { text: "skribbl.oi", link: "https://skribbl.io/" },
+        { text: "bad-time-simulator", link: "https://jcw87.github.io/c2-sans-fight" },
+        { text: "subway-surfers", link: "https://tombofthe-mask.com/subway-surfers" },
+        { text: "fruit-ninja", link: "https://tombofthe-mask.com/fruit-ninja" },
+    ]
+);
+
+// ====== SECOND LIST: APPS ======
+createToggleList(
+    "toggleproxyBtn",
+    "proxyContainer",
+    [
+        { text: "proxyorb", link: "https://proxyorb.com/" },
+        { text: "croxyproxy", link: "https://www.croxyproxy.com/" },
+        { text: "proxysite", link: "https://www.proxysite.com/#google_vignette" },
+        { text: "blockaway", link: "https://www.blockaway.net/" },
+        { text: "anuraOS", link: "https://anura.pro/" },
+        { text: "browser.lol", link: "https://browser.lol/" },
+        { text: "4everproxy", link: "https://www.4everproxy.com/" },
+    ]
+);
+
+
+
+// ===== reusable function =====
+function createToggleList(buttonId, containerId, items) {
+    const btn = document.getElementById(buttonId);
+    const container = document.getElementById(containerId);
+    let visible = false;
+
+    btn.addEventListener("click", () => {
+
+        const strongText = btn.querySelector("strong"); // FIX: ändra bara texten!
+
+        if (!visible) {
+
+            // show list
+            items.forEach((item, index) => {
+                const b = document.createElement("button");
+                b.className = "spawnedBtn";
+                b.textContent = item.text;
+                b.onclick = () => window.location.href = item.link;
+                container.appendChild(b);
+
+                setTimeout(() => b.classList.add("show"), index * 150);
+            });
+
+            strongText.textContent = "Hide links"; // FIX
+            visible = true;
+
+        } else {
+
+            // hide list
+            const spawned = container.querySelectorAll(".spawnedBtn");
+            spawned.forEach((b, index) => {
+                b.classList.remove("show");
+                setTimeout(() => b.remove(), 400);
+            });
+
+            strongText.textContent = "Show links"; // FIX
+            visible = false;
+        }
+    });
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  
+
+
+
+
+
+
+
+
+      
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
